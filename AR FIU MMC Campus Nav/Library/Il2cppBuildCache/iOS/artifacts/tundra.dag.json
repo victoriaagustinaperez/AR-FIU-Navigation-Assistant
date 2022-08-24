@@ -20,52 +20,52 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp /Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
-      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput\" --stats-output-dir=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppStats\"",
+      "Annotation": "Il2Cpp /Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput\" --stats-output-dir=\"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppStats\"",
       "Inputs": [
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Mono.Security.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/System.Configuration.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/System.Core.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/System.Xml.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/System.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.ScreenCaptureModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.dll",
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Temp/StagingArea/Data/Managed/mscorlib.dll",
         "\"/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
       ],
       "Outputs": [
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -78,13 +78,13 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
-      "Action": "TMPFILE=$(mktemp \"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
       "Inputs": [
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -101,13 +101,13 @@
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
-      "Action": "TMPFILE=$(mktemp \"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
       "Inputs": [
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/victoriaperez/Documents/GitHub/AR-FIU-NAV/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+        "/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,

@@ -5,17 +5,26 @@ ScriptsOnlyBuild:
     - ARLocation.ARLocationManager
     - ARLocation.ARLocationOrientation
     - ARLocation.ARLocationProvider
-    - ARLocation.PrefabDatabase
-    - ARLocation.WebMapLoader
+    - ARLocation.MapboxRoutes.DefaultOnScreenTargetIndicator
+    - ARLocation.MapboxRoutes.MapboxRoute
+    - ARLocation.MapboxRoutes.NextStepRoutePathRenderer
+    - ARLocation.MapboxRoutes.SignPost
+    - ARLocation.PlaceAtLocation
+    - ARLocation.Utils.RotateObject
+    - DestinationHandler
+    - RouteHandler
     - SceneLoader
     - UnityEngine.UI.Extensions.AutoCompleteComboBox
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
+    - TMPro.TMP_Dropdown
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
@@ -51,6 +60,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/1MainMenu.unity:
@@ -79,6 +89,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1542}
     - Class: 114
+      Script: {instanceID: 1752}
+    - Class: 114
       Script: {instanceID: 1770}
     - Class: 114
       Script: {instanceID: 1940}
@@ -90,6 +102,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2748}
     - Class: 114
       Script: {instanceID: 2886}
+    - Class: 114
+      Script: {instanceID: 2902}
+    - Class: 114
+      Script: {instanceID: 2948}
     - Class: 114
       Script: {instanceID: 3136}
     - Class: 114
@@ -118,6 +134,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5038}
     - Class: 114
       Script: {instanceID: 5260}
+    - Class: 114
+      Script: {instanceID: 20266}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -153,8 +171,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -166,17 +182,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1782}
     - Class: 114
+      Script: {instanceID: 1940}
+    - Class: 114
+      Script: {instanceID: 2556}
+    - Class: 114
       Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3720}
+      Script: {instanceID: 3146}
     - Class: 114
       Script: {instanceID: 3750}
     - Class: 114
       Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 3860}
-    - Class: 114
       Script: {instanceID: 3968}
+    - Class: 114
+      Script: {instanceID: 4096}
     - Class: 114
       Script: {instanceID: 4258}
     - Class: 114
@@ -184,12 +204,32 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4330}
     - Class: 114
+      Script: {instanceID: 4512}
+    - Class: 114
+      Script: {instanceID: 4556}
+    - Class: 114
+      Script: {instanceID: 4566}
+    - Class: 114
       Script: {instanceID: 4688}
+    - Class: 114
+      Script: {instanceID: 5508}
+    - Class: 114
+      Script: {instanceID: 21542}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1896,8 +1936,20 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
     className: ScrollSnap
+  - hash:
+      serializedVersion: 2
+      Hash: fefeaff37fb60031c07a0cd8b83d6625
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestinationHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8f24e1af4a2fa5281fcd9d585bb32f8c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RouteHandler
   platform: 9
   scenePathNames:
   - Assets/Scenes/1MainMenu.unity
   - Assets/Scenes/2AR.unity
-  playerPath: /Volumes/WD External/Unity Builds/AR-FIU-MMC-MMC-Campus-Nav
+  playerPath: /Users/victoriaperez/Documents/Unity/Builds

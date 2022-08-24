@@ -1,0 +1,420 @@
+Unity Editor version:    2020.3.26f1 (7298b473bc1a)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3 (Build 21E230)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49758
+Successfully changed project path to: /Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav
+/Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 89.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/victoriaperez/Documents/GitHub/AR-FIU-Navigation-Assistant/AR FIU MMC Campus Nav/Assets
+GfxDevice: creating device client; threaded=0
+2022-08-09 11:43:14.243 Unity[81680:5668236] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
+2022-08-09 11:43:14.243 Unity[81680:5668236] Metal devices available: 1
+2022-08-09 11:43:14.243 Unity[81680:5668236] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
+2022-08-09 11:43:14.246 Unity[81680:5668236] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000710 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 55.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (958ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.739 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1743ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1455ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (513ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.009434 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.039531 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2022-08-09 11:43:18.778 Unity[81680:5668236] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003fc8d90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-08-09 11:43:18.790 Unity[81680:5668236] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003fa1340 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.1 MB.
+System memory in use after: 191.3 MB.
+
+Unloading 282 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 4.775212 ms (FindLiveObjects: 0.306108 ms CreateObjectMapping: 0.163536 ms MarkObjects: 3.450007 ms  DeleteObjects: 0.854542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/case.obj
+  artifactKey: Guid(0f82fd3cc6c844df98d6c7ce8e29b568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/case.obj using Guid(0f82fd3cc6c844df98d6c7ce8e29b568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a641f66a6814b665f7b9e75fefa761') in 1.416417 seconds 
+  Import took 1.425130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 366.710574 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(8d49d2aec4873440bb4f92a568f28e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(8d49d2aec4873440bb4f92a568f28e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb2678edf50f70def4c8e6f806f2393') in 0.002266 seconds 
+  Import took 0.006098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061270 seconds.
+  path: Assets/Scripts/SceneLoader.prefab
+  artifactKey: Guid(3de3d3b9301fd4587ab6e75deeb122fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoader.prefab using Guid(3de3d3b9301fd4587ab6e75deeb122fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56357803bc7f490960b42d2a7fc44697') in 1.337371 seconds 
+  Import took 1.348713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Scripts/SceneLoader.cs
+  artifactKey: Guid(74881eb8e04e0447bb0411e8d418f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoader.cs using Guid(74881eb8e04e0447bb0411e8d418f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617c6302b2087bf32d98d65de3fe2344') in 0.292931 seconds 
+  Import took 0.301771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.257306 seconds.
+  path: Assets/ARLocation/Scripts/ScriptableObjects
+  artifactKey: Guid(12e1a6e2bc7ebbf4eb13df8d7595ab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Scripts/ScriptableObjects using Guid(12e1a6e2bc7ebbf4eb13df8d7595ab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d0c2efa52eaccb488f51c0f9941521') in 0.002324 seconds 
+  Import took 0.008888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.596703 seconds.
+  path: Assets/ARLocation/Scripts/ScriptableObjects/ARLocationConfig.cs
+  artifactKey: Guid(9fdf1fc4a89fb2243b47ffffdffcc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Scripts/ScriptableObjects/ARLocationConfig.cs using Guid(9fdf1fc4a89fb2243b47ffffdffcc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd471d157ce59c72163542b1e7535c37f') in 0.003711 seconds 
+  Import took 0.009703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.405422 seconds.
+  path: Assets/ARLocation/Scripts/ScriptableObjects/LocationData.cs
+  artifactKey: Guid(635ca3a89b644ab44b888c22da8eae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Scripts/ScriptableObjects/LocationData.cs using Guid(635ca3a89b644ab44b888c22da8eae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e87d3bd39fadc34d2355cb80f668e1') in 0.002507 seconds 
+  Import took 0.012578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.959905 seconds.
+  path: Assets/ARLocation/Scripts/ScriptableObjects/LocationPath.cs
+  artifactKey: Guid(1c63d15506dd69f48a388fc9c4976162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Scripts/ScriptableObjects/LocationPath.cs using Guid(1c63d15506dd69f48a388fc9c4976162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792ae07d9dc23f014d99bbc0436ed03a') in 0.003191 seconds 
+  Import took 0.010860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.946458 seconds.
+  path: Assets/ARLocation/Scripts/ScriptableObjects/PrefabDatabase.cs
+  artifactKey: Guid(4d58c52ff9f122a49a289c83a1611436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Scripts/ScriptableObjects/PrefabDatabase.cs using Guid(4d58c52ff9f122a49a289c83a1611436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c401280af75c3245c085945d41492a1') in 0.003600 seconds 
+  Import took 0.009935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1498.402726 seconds.
+  path: Assets/ARLocation/Meshes/argps.fbx
+  artifactKey: Guid(746e158f3c311054ea35ad7e00489a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Meshes/argps.fbx using Guid(746e158f3c311054ea35ad7e00489a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c922aeb3232ae9115dc1857af2c4c1d8') in 1.025202 seconds 
+  Import took 1.036582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/ARLocation/Meshes/Zombie.fbx
+  artifactKey: Guid(6e0b48ec7f5348c42af7efe4859098eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Meshes/Zombie.fbx using Guid(6e0b48ec7f5348c42af7efe4859098eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467b9421906f1e35fd4078343f31bfeb') in 0.159000 seconds 
+  Import took 0.165930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001000 seconds.
+  path: Assets/ARLocation/Meshes/low_poly_earth.fbx
+  artifactKey: Guid(3b9a5bbc2b027ec49a8d8b8656725e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Meshes/low_poly_earth.fbx using Guid(3b9a5bbc2b027ec49a8d8b8656725e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0559148a5397e14f4bf0f4c4668d32d5') in 0.132817 seconds 
+  Import took 0.141472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004364 seconds.
+  path: Assets/ARLocation/Meshes/fighter_plane.fbx
+  artifactKey: Guid(6c83746b298a67d4bbbcc0b50936e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Meshes/fighter_plane.fbx using Guid(6c83746b298a67d4bbbcc0b50936e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3312e5597bcb5735e32199bf9407b55c') in 1.154132 seconds 
+  Import took 1.167654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.821265 seconds.
+  path: Assets/Scenes/2AR.unity
+  artifactKey: Guid(fb759bd5df38e4c9aa3fa4cefb026c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2AR.unity using Guid(fb759bd5df38e4c9aa3fa4cefb026c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20954e9ecdbc2e953ec0069786503bb9') in 0.013314 seconds 
+  Import took 0.027229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.849351 seconds.
+  path: Assets/Scenes/3ResetMenu.unity
+  artifactKey: Guid(025e1829a360b451790c183d2a0145ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3ResetMenu.unity using Guid(025e1829a360b451790c183d2a0145ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df7b48fb2fda657b0b6810d0ac443ba') in 0.008619 seconds 
+  Import took 0.023174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.212708 seconds.
+  path: Assets/Scenes/3ResetMenu.unity
+  artifactKey: Guid(025e1829a360b451790c183d2a0145ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3ResetMenu.unity using Guid(025e1829a360b451790c183d2a0145ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1e7ff81c584283a5e41416424f177c') in 0.008419 seconds 
+  Import took 0.021400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.677379 seconds.
+  path: Assets/Scenes/3ResetMenu.unity
+  artifactKey: Guid(025e1829a360b451790c183d2a0145ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3ResetMenu.unity using Guid(025e1829a360b451790c183d2a0145ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1babeeecbbd7b17bd5e9f82791f09723') in 0.015550 seconds 
+  Import took 0.031278 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-10 00:43:09.142 Unity[81680:5668236] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003fea4c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4767ms)
+		BeginReloadAssembly (607ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (345ms)
+		EndReloadAssembly (3872ms)
+			LoadAssemblies (499ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1314ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (185ms)
+			SetupLoadedEditorAssemblies (1387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (466ms)
+				ProcessInitializeOnLoadAttributes (866ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (51ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2147 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 5.079460 ms (FindLiveObjects: 0.553857 ms CreateObjectMapping: 0.249140 ms MarkObjects: 4.232492 ms  DeleteObjects: 0.041628 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
