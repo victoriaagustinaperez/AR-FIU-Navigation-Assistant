@@ -1,4 +1,4 @@
-# AR FIU Navigation Assistant
+# AR FIU MMC Campus Navigation Assistant
 
 ## Overview
 ### Description
