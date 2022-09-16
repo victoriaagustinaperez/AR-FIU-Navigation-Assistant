@@ -14,6 +14,8 @@ ScriptsOnlyBuild:
     - DestinationHandler
     - RouteHandler
     - SceneLoader
+    Unity.2D.Sprite.Editor.dll:
+    - UnityEditor.U2D.Sprites.SpriteEditorWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -24,6 +26,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
@@ -82,45 +86,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1544}
+      Script: {instanceID: 1542}
     - Class: 114
-      Script: {instanceID: 1754}
+      Script: {instanceID: 1752}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1940}
     - Class: 114
-      Script: {instanceID: 2344}
+      Script: {instanceID: 2342}
     - Class: 114
-      Script: {instanceID: 2358}
+      Script: {instanceID: 2356}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3136}
     - Class: 114
-      Script: {instanceID: 3352}
+      Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 3402}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 3412}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3526}
+      Script: {instanceID: 3524}
     - Class: 114
-      Script: {instanceID: 3984}
+      Script: {instanceID: 3982}
     - Class: 114
-      Script: {instanceID: 4578}
+      Script: {instanceID: 4576}
     - Class: 114
-      Script: {instanceID: 4778}
+      Script: {instanceID: 4776}
     - Class: 114
-      Script: {instanceID: 4904}
+      Script: {instanceID: 4902}
     - Class: 114
-      Script: {instanceID: 4992}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5266}
+      Script: {instanceID: 5264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -163,43 +167,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1738}
+      Script: {instanceID: 1542}
     - Class: 114
-      Script: {instanceID: 1784}
+      Script: {instanceID: 1736}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2558}
+      Script: {instanceID: 1940}
     - Class: 114
-      Script: {instanceID: 2784}
+      Script: {instanceID: 2556}
     - Class: 114
-      Script: {instanceID: 3148}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 3752}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3758}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 3970}
+      Script: {instanceID: 3136}
     - Class: 114
-      Script: {instanceID: 4100}
+      Script: {instanceID: 3146}
     - Class: 114
-      Script: {instanceID: 4262}
+      Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 4278}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 4334}
+      Script: {instanceID: 3524}
     - Class: 114
-      Script: {instanceID: 4516}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 4560}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 4570}
+      Script: {instanceID: 3968}
     - Class: 114
-      Script: {instanceID: 4692}
+      Script: {instanceID: 4098}
     - Class: 114
-      Script: {instanceID: 4940}
+      Script: {instanceID: 4260}
     - Class: 114
-      Script: {instanceID: 5514}
+      Script: {instanceID: 4276}
+    - Class: 114
+      Script: {instanceID: 4332}
+    - Class: 114
+      Script: {instanceID: 4514}
+    - Class: 114
+      Script: {instanceID: 4558}
+    - Class: 114
+      Script: {instanceID: 4568}
+    - Class: 114
+      Script: {instanceID: 4690}
+    - Class: 114
+      Script: {instanceID: 4938}
+    - Class: 114
+      Script: {instanceID: 5512}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,6 +231,8 @@ ScriptsOnlyBuild:
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
@@ -1937,4 +1957,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/1MainMenu.unity
   - Assets/Scenes/2AR.unity
-  playerPath: /Users/victoriaperez/Documents/Unity/Builds/AR-FIU Build
+  playerPath: /Users/victoriaperez/Documents/Unity/Builds/AR-FIU-Nav Builds/iPhone
+    Build
