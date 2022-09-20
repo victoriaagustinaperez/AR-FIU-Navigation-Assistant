@@ -5,4 +5,4 @@
 Cross-platform AR navigation assistance application for the FIU MMC campus that displays an interactive UI of facts, details, and directions as users walk around to find their destination.
 
 
-![Untitled_AdobeExpress](https://user-images.githubusercontent.com/45078724/191286193-715e9f82-71a4-4d9d-b174-e7321b88c371.gif)
+![Untitled_AdobeExpress (3)](https://user-images.githubusercontent.com/45078724/191287070-d29db28b-e533-400f-b4a3-48ef46bf5698.gif)
